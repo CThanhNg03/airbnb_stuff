@@ -1,0 +1,14 @@
+{
+  "name": "airbnb-stuff",
+  "version": "1.0.0",
+  "workspaces":[
+    "./social-service",
+    "./property-service"
+  ],
+  "scripts": {
+    "start:social": "cd social-service && npm start",
+    "start:property": "cd property-service && npm start"
+  },
+  "dependencies": {
+  }
+}
